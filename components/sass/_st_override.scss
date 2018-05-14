@@ -1,0 +1,262 @@
+/* PROJECT STYLES */
+#wrapper {
+    text-align: center;
+    height: auto;
+    width: 800px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+#map,
+#country {
+    width: 800px;
+    margin-right: auto;
+    margin-left: auto;
+    text-align: center;
+}
+
+.byline {
+    font-family: "Benton Sans", Helvetica, Arial, sans-serif;
+    font-weight: 400;
+    font-size:0.6em;
+    color: #888;
+    padding-top:10px;
+    padding-bottom:10px;
+    text-align:left;
+}
+
+#mapMN {
+    width: 350px;
+    margin-right: auto;
+    margin-left: auto;
+    text-align: center;
+}
+
+.none {
+    fill: #ddd !important;
+}
+
+.zoom {
+    float: none !important;
+    text-align: center;
+    padding: 20px;
+}
+
+#slider {
+    display: none;
+}
+
+.legends {
+    width: 318px;
+    height: auto;
+    text-align: center;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.metroSwitch {
+    padding: 10px;
+    display: inline-block;
+    text-align: center;
+    width: 49.5% !important;
+    background-color: #fff;
+    font-weight: 900;
+    font-family: "Benton Sans", Helvetica, Arial, sans-serif;
+    border: 1px solid black;
+}
+
+.metroSwitch:hover {
+    background-color: #333 !important;
+    color: #fff !important;
+    cursor: pointer;
+}
+
+#map,
+#mapMN {
+    display: none;
+}
+
+.tableHead {
+    display: inline-block;
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+    width: 32%;
+    font-weight: 900;
+    font-family: "Poynter Serif RE";
+}
+
+.tableCell {
+    display: inline-block;
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+    width: 32%;
+    font-family: "Benton Sans";
+}
+
+.tableBreak {
+    clear: both;
+    display: block;
+}
+
+.table {
+    text-align: center;
+    width: 100%;
+    overflow-x: hidden;
+    overflow-y: auto;
+    height: 400px;
+}
+
+#filter input {
+    border-radius: 0 !important;
+}
+
+.district:hover,
+.selected,
+.hSort:hover,
+.start:hover {
+    background-color: #333;
+    color: #fff !important;
+    cursor: pointer;
+}
+
+#quintile {
+    float: left;
+    width: 20%;
+}
+
+#chartBlock {
+    float: right;
+    width: 70%;
+}
+
+#chart {
+    width: 100%;
+    height: 190px;
+}
+
+.card {
+    width: 100% !important;
+    height: auto !important;
+    border: 0 !important;
+    padding: 0 !important;
+    display: block !important;
+}
+
+.card:hover {
+    opacity: 1 !important;
+    cursor: default !important;
+}
+
+.chatter,
+.chartTitle {
+    text-align: left;
+}
+
+.negDark {
+    fill: #F21919 !important;
+    background-color: #F21919 !important;
+    color: #fff !important;
+}
+
+.negMid {
+    fill: #F27F7F !important;
+    background-color: #F27F7F !important;
+    color: #fff;
+}
+
+.negLight {
+    fill: #F1D9CB !important;
+    background-color: #F1D9CB !important;
+}
+
+.neutral {
+    fill: #ddd !important;
+    background-color: #fff !important;
+}
+
+.posLight {
+    fill: #D2EDCB !important;
+    background-color: #D2EDCB !important;
+}
+
+.posMid {
+    fill: #A8DA99 !important;
+    background-color: #A8DA99 !important;
+    color: #fff;
+}
+
+.posDark {
+    fill: #57B857 !important;
+    background-color: #57B857 !important;
+    color: #fff !important;
+}
+
+.state-boundary {
+    fill: none;
+    stroke: #fff;
+    stroke-width: 2.3px;
+}
+
+path:hover {
+    cursor: normal !important;
+}
+
+#mapChatter {
+    display: none;
+}
+
+.city-label {
+    font-size: 8px !important;
+    margin-left: 3px !important;
+    text-anchor: left !important;
+}
+
+small {
+    font-family: "Benton Sans", Helvetica, Arial, sans-serif;
+    color: #808080;
+    clear: both;
+    display: block;
+}
+
+.grid {
+    padding: 10px;
+}
+
+#gridBlock {
+    float: right;
+    width: 47%;
+}
+
+#tableBlock {
+    float: left;
+    display: inline-block;
+    width: 47%;
+}
+
+#districtName {
+    display: none;
+}
+
+#tableBlock,
+#gridBlock,
+#quintile,
+#chartBlock,
+#chart {
+    width: 100%;
+    float: none;
+    display: block !important;
+}
+
+.metroSwitch {
+    width: 32%;
+}
+
+@media (max-width:800px) {
+    #map,
+    #country {
+        width: 100%;
+    }
+    #wrapper {
+        width: 100%;
+    }
+}
